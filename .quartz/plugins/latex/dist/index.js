@@ -233911,10 +233911,10 @@ var Latex = (opts) => {
       switch (engine) {
         case "katex":
           return {
-            css: [{ content: "https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.11/katex.min.css" }],
+            css: [{ content: "https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/katex.min.css" }],
             js: [
               {
-                src: "https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.11/contrib/copy-tex.min.js",
+                src: "https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js",
                 loadTime: "afterDOMReady",
                 contentType: "external"
               }
