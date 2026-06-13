@@ -92,9 +92,7 @@ plugins:
     enabled: true
     order: 70
   - source: github:quartz-community/latex
-    enabled: true
-    options:
-      renderEngine: katex
+    enabled: false
     order: 80
   - source: github:quartz-community/citations
     enabled: false
