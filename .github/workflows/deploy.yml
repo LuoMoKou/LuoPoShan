@@ -36,10 +36,9 @@ jobs:
         run: |
           chmod +x ./quartz/bootstrap-cli.mjs
           npx quartz build -d . -o public
-      - name: 恢复公式标记并注入 MathJax
+      - name: 替换 KaTeX CDN 为本地
         run: |
-          find public -name "*.html" -exec sed -i 's|QMATH|\$\$|g' {} \;
-          find public -name "*.html" -exec sed -i 's|</head>|<script>MathJax={tex:{inlineMath:[["$","$"]],displayMath:[["$$","$$"]]}}</script><script src="https://cdn.staticfile.org/mathjax/3.2.2/es5/tex-svg.js" id="MathJax-script"></script></head>|' {} \;
+          find public -name "*.html" -exec sed -i 's|<link href="https://[^"]*katex[^"]*"[^>]*>|<link href="/LuoPoShan/static/katex.min.css" rel="stylesheet"/>|' {} \;
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:

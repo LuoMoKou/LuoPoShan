@@ -69,7 +69,9 @@ plugins:
       keepBackground: false
     order: 20
   - source: github:quartz-community/latex
-    enabled: false
+    enabled: true
+    options:
+      renderEngine: katex
     order: 25
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
