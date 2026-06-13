@@ -94,7 +94,9 @@ plugins:
   - source: github:quartz-community/latex
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: mathjax
+      mathJaxOptions:
+        output: svg
     order: 80
   - source: github:quartz-community/citations
     enabled: false

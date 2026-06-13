@@ -36,9 +36,6 @@ jobs:
         run: |
           chmod +x ./quartz/bootstrap-cli.mjs
           npx quartz build -d . -o public
-      - name: 修复 KaTeX CSS（替换外部 CDN 为本地文件）
-        run: |
-          find public -name "*.html" -exec sed -i 's|<link href="https://[^"]*katex[^"]*"[^>]*>|<link href="/LuoPoShan/static/katex.min.css" rel="stylesheet"/>|g' {} \;
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
