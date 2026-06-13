@@ -196,8 +196,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3841eda046ed7d93",
+  "active": "4e2e724424f6421d",
   "lastOpenFiles": [
+    "quartz.config.yaml.tmp.22816.12c911df24ef",
+    "quartz.config.yaml.tmp.22816.4fe21d800653",
     "数学/格林公式形象理解.md",
     "quartz.config.yaml.tmp.31172.3cf318832ebf",
     "index.md",
@@ -213,7 +215,6 @@
     "node_modules/parse5/dist/serializer/index.js",
     "node_modules/parse5/dist/serializer/index.d.ts",
     "node_modules/parse5/dist/serializer",
-    "quartz.config.yaml",
     "node_modules/@quartz-community/utils/README.md",
     "node_modules/@quartz-community/utils/CHANGELOG.md",
     "node_modules/@esbuild/win32-x64/README.md",
@@ -235,7 +236,6 @@
     "node_modules/serve-handler/node_modules/balanced-match/LICENSE.md",
     "node_modules/@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc/README.md",
     "node_modules/sass/node_modules/readdirp/README.md",
-    "node_modules/@nodelib/fs.scandir/README.md",
     "_quartz/quartz/static/icon.png",
     "_quartz/quartz/static/og-image.png",
     "_quartz/docs/images/social-image-preview-light.png",

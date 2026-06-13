@@ -1,10 +1,17 @@
 {
   "userIgnoreFilters": [
     "node_modules",
+    "node_modules/**",
     "quartz",
+    "quartz/**",
     ".quartz",
+    ".quartz/**",
     ".github",
+    ".github/**",
     ".claudian",
+    ".claudian/**",
+    "_quartz",
+    "_quartz/**",
     "package.json",
     "package-lock.json",
     "tsconfig.json",
@@ -15,6 +22,7 @@
     "globals.d.ts",
     "index.d.ts",
     "Dockerfile",
-    "index.md"
+    "index.md",
+    "gen-plugin-index.cjs"
   ]
 }
