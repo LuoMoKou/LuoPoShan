@@ -68,6 +68,11 @@ plugins:
         dark: github-dark
       keepBackground: false
     order: 20
+  - source: github:quartz-community/latex
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 25
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
@@ -91,9 +96,6 @@ plugins:
   - source: github:quartz-community/description
     enabled: true
     order: 70
-  - source: github:quartz-community/latex
-    enabled: false
-    order: 80
   - source: github:quartz-community/citations
     enabled: false
     order: 85
