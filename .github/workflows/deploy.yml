@@ -32,9 +32,16 @@ jobs:
             echo "安装: $d"
             cd "$d" && npm install && cd "$ROOT"
           done
-      - name: 构建网站
+      - name: 首次构建（安装插件并生成 .git）
         run: |
           chmod +x ./quartz/bootstrap-cli.mjs
+          npx quartz build -d . -o public
+      - name: 修复 KaTeX CDN（国内可访问）
+        run: |
+          find .quartz/plugins -name "index.js" -exec sed -i 's|cdn\.jsdelivr\.net/npm/katex@[^/]*/|cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/|g' {} \;
+      - name: 重新构建（使用修复后的插件）
+        run: |
+          rm -rf public quartz/.quartz-cache
           npx quartz build -d . -o public
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
