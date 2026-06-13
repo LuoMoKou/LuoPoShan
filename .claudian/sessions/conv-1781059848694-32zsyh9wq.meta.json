@@ -4,19 +4,20 @@
   "title": "整理文档排版",
   "titleGenerationStatus": "success",
   "createdAt": 1781059848695,
-  "updatedAt": 1781333991295,
-  "lastResponseAt": 1781333991295,
+  "updatedAt": 1781336827839,
+  "lastResponseAt": 1781336827839,
   "sessionId": "b914ca35-a987-43fc-9d6c-2b25610d519a",
   "providerState": {
     "providerSessionId": "b914ca35-a987-43fc-9d6c-2b25610d519a"
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 220,
+    "inputTokens": 106,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 229120,
-    "contextWindow": 200000,
-    "contextTokens": 229340,
-    "percentage": 100
+    "cacheReadInputTokens": 285056,
+    "contextWindow": 1000000,
+    "contextTokens": 285162,
+    "percentage": 29,
+    "contextWindowIsAuthoritative": true
   }
 }
