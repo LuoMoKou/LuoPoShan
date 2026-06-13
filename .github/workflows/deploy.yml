@@ -38,7 +38,7 @@ jobs:
           npx quartz build -d . -o public
       - name: 替换 KaTeX CDN（jsdelivr → cdnjs Cloudflare）
         run: |
-          find public -name "*.html" -exec sed -i 's|cdn\.jsdelivr\.net/npm/katex@[^/]*/|cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/|g' {} \;
+          find public -name "*.html" -exec sed -i 's|cdn\.jsdelivr\.net/npm/katex@[^/]*/dist/|cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/|g' {} \;
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
