@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Quartz output
+public/
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian / Claude 运行文件
+.claudian/
+.trash/
+
+# 编辑器
+.vscode/
+.idea/
