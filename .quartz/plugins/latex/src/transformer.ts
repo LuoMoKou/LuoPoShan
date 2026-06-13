@@ -70,10 +70,10 @@ export const Latex: QuartzTransformerPlugin<Partial<LatexOptions>> = (opts) => {
       switch (engine) {
         case "katex":
           return {
-            css: [{ content: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" }],
+            css: [{ content: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" }],
             js: [
               {
-                src: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js",
+                src: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js",
                 loadTime: "afterDOMReady",
                 contentType: "external",
               },

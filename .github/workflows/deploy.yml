@@ -36,9 +36,9 @@ jobs:
         run: |
           chmod +x ./quartz/bootstrap-cli.mjs
           npx quartz build -d . -o public
-      - name: 注入 MathJax 客户端渲染
+      - name: 替换 KaTeX CDN（jsdelivr → cdnjs Cloudflare）
         run: |
-          find public -name "*.html" -exec sed -i 's|</head>|<script>MathJax={tex:{inlineMath:[["\\$","\\$"]],displayMath:[["\\$\\$","\\$\\$"]]}}</script><script src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script></head>|' {} \;
+          find public -name "*.html" -exec sed -i 's|cdn\.jsdelivr\.net/npm/katex@[^/]*/|cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/|g' {} \;
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
