@@ -6,6 +6,13 @@ npm-debug.log*
 public/
 docs/
 
+# Local content copy (link to vault root)
+content/
+
+# Quartz plugin cache
+quartz/plugins/.registry/
+.quartz/
+
 # OS
 .DS_Store
 Thumbs.db
