@@ -94,7 +94,7 @@ plugins:
   - source: github:quartz-community/latex
     enabled: true
     options:
-      renderEngine: mathjax
+      renderEngine: typst
     order: 80
   - source: github:quartz-community/citations
     enabled: false
