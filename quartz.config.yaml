@@ -92,11 +92,9 @@ plugins:
     enabled: true
     order: 70
   - source: github:quartz-community/latex
-    enabled: true
+    enabled: false
     options:
       renderEngine: mathjax
-      mathJaxOptions:
-        output: svg
     order: 80
   - source: github:quartz-community/citations
     enabled: false
