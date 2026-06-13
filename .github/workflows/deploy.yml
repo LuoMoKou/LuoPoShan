@@ -33,7 +33,9 @@ jobs:
             cd "$d" && npm install --ignore-scripts && cd "$ROOT"
           done
       - name: 构建网站
-        run: npx quartz build -d . -o public
+        run: |
+          chmod +x ./quartz/bootstrap-cli.mjs
+          npx quartz build -d . -o public
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
