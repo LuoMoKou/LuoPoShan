@@ -38,7 +38,7 @@ jobs:
           npx quartz build -d . -o public
       - name: 修复 KaTeX CDN（国内可访问）
         run: |
-          find .quartz/plugins -name "index.js" -exec sed -i 's|cdn\.jsdelivr\.net/npm/katex@[^/]*/|cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/|g' {} \;
+          find .quartz/plugins -name "index.js" -exec sed -i 's|cdn\.jsdelivr\.net/npm/|unpkg.com/|g' {} \;
       - name: 重新构建（使用修复后的插件）
         run: |
           rm -rf public quartz/.quartz-cache
