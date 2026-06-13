@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/高斯公式与斯托克斯公式.md",
+                "file": "node_modules/@bufbuild/protobuf/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "高斯公式与斯托克斯公式"
+              "title": "README"
             }
           }
         ]
@@ -196,8 +196,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4e2e724424f6421d",
+  "active": "872b182fa9e4bf9a",
   "lastOpenFiles": [
+    "gen-plugin-index.cjs",
+    "quartz/static/og-image.png",
+    "quartz/static/icon.png",
+    "数学/高斯公式与斯托克斯公式.md",
     "node_modules/sharp/install/check.js",
     "node_modules/sharp/install/build.js",
     "node_modules/sharp/install",
@@ -210,7 +214,6 @@
     "node_modules/@quartz-community/utils/CHANGELOG.md",
     "node_modules/@quartz-community/utils/package.json",
     "node_modules/@quartz-community/utils/dist/sort.js",
-    "node_modules/@quartz-community/utils/dist/sort.js.map",
     "node_modules/@esbuild/win32-x64/README.md",
     "node_modules/@quartz-community/types/README.md",
     "node_modules/colorjs.io/README.md",
@@ -233,9 +236,6 @@
     "node_modules/sass/node_modules/readdirp/README.md",
     "node_modules/@nodelib/fs.scandir/README.md",
     "node_modules/@parcel/watcher/README.md",
-    "node_modules/@floating-ui/utils/README.md",
-    "quartz/static/og-image.png",
-    "quartz/static/icon.png",
     "_quartz/quartz/static/icon.png",
     "_quartz/quartz/static/og-image.png",
     "_quartz/docs/images/social-image-preview-light.png",
