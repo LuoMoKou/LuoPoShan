@@ -25,8 +25,10 @@ jobs:
           cache: npm
       - name: 安装依赖
         run: npm ci
+      - name: 安装 Quartz 插件
+        run: npm run install-plugins
       - name: 构建网站
-        run: npx quartz build --directory . --output public
+        run: npm run quartz build -- -d . -o public
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
