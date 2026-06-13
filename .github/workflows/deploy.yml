@@ -36,9 +36,9 @@ jobs:
         run: |
           chmod +x ./quartz/bootstrap-cli.mjs
           npx quartz build -d . -o public
-      - name: 注入 MathJax（七牛云 CDN）
+      - name: 注入 MathJax SVG（七牛云 CDN）
         run: |
-          find public -name "*.html" -exec sed -i 's|</head>|<script>MathJax={tex:{inlineMath:[["\\$","\\$"]],displayMath:[["\\$\\$","\\$\\$"]]}}</script><script src="https://cdn.staticfile.org/mathjax/3.2.2/es5/tex-mml-chtml.js" id="MathJax-script" async></script></head>|' {} \;
+          find public -name "*.html" -exec sed -i 's|</head>|<script>MathJax={tex:{inlineMath:[["\\$","\\$"]],displayMath:[["\\$\\$","\\$\\$"]]}}</script><script src="https://cdn.staticfile.org/mathjax/3.2.2/es5/tex-svg.js" id="MathJax-script" async></script></head>|' {} \;
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
