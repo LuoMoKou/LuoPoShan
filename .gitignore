@@ -11,7 +11,8 @@ content/
 
 # Quartz plugin cache
 quartz/plugins/.registry/
-.quartz/
+# Keep .quartz/plugins checked in (plugin code), only ignore per-plugin node_modules
+.quartz/plugins/*/node_modules/
 
 # OS
 .DS_Store

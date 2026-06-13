@@ -25,10 +25,15 @@ jobs:
           cache: npm
       - name: 安装依赖
         run: npm ci
-      - name: 安装 Quartz 插件
-        run: npm run install-plugins
+      - name: 安装 Quartz 插件依赖
+        run: |
+          ROOT=$(pwd)
+          for d in .quartz/plugins/*/; do
+            echo "安装: $d"
+            cd "$d" && npm install --ignore-scripts && cd "$ROOT"
+          done
       - name: 构建网站
-        run: npm run quartz build -- -d . -o public
+        run: npx quartz build -d . -o public
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
