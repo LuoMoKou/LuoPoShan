@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780192748744-3bagez6c5",
+  "providerId": "claude",
+  "title": "Generate physics problem-solution notes from PDF",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780192748746,
+  "updatedAt": 1781059838592,
+  "lastResponseAt": 1781058668742,
+  "sessionId": "c99c97cf-2890-4d4c-9a1e-616b9e43eb1a",
+  "providerState": {
+    "providerSessionId": "c99c97cf-2890-4d4c-9a1e-616b9e43eb1a"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 164,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 139008,
+    "contextWindow": 1000000,
+    "contextTokens": 139172,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}
