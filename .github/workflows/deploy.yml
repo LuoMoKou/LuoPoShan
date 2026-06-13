@@ -30,7 +30,7 @@ jobs:
           ROOT=$(pwd)
           for d in .quartz/plugins/*/; do
             echo "安装: $d"
-            cd "$d" && npm install --ignore-scripts && cd "$ROOT"
+            cd "$d" && npm install && cd "$ROOT"
           done
       - name: 构建网站
         run: |
