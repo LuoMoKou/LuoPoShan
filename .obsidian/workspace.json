@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "数学/高斯公式与斯托克斯公式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "高斯公式与斯托克斯公式"
             }
           }
         ]
@@ -198,8 +198,17 @@
   },
   "active": "4e2e724424f6421d",
   "lastOpenFiles": [
-    "quartz.config.yaml.tmp.22816.53a3645c8989",
-    "quartz/static/katex.min.css",
+    "public/物理/sedaMd2ws",
+    "public/物理/sed4IarvN",
+    "public/数学/sedrqPRto",
+    "public/数学/seduTzZzk",
+    "public/数学/sedXo5J8Q",
+    "public/tags/sedMq5ST5",
+    "public/tags/seddA4JWg",
+    "public/tags/sedmb87Bw",
+    "public/tags/seddd1yaD",
+    "public/tags/sedbDnFkX",
+    "public/sedBlgu3A",
     "public/tags/index-og-image.webp",
     "public/tags/讲义-og-image.webp",
     "public/tags/习题解析-og-image.webp",
@@ -210,17 +219,8 @@
     "public/物理/大学物理第六章-波动-习题讲义-og-image.webp",
     "public/数学/高斯公式与斯托克斯公式-og-image.webp",
     "public/数学/格林公式形象理解-og-image.webp",
-    "public/static/giscus/light.css",
-    "public/static/giscus/dark.css",
-    "public/static/giscus",
-    "public/static/contentIndex.json",
-    "public/index.xml",
-    "public/favicon.ico",
-    "public/CNAME",
-    "public/sitemap.xml",
-    "public/404.html",
-    "数学/格林公式形象理解.md",
     "index.md",
+    "数学/格林公式形象理解.md",
     "node_modules/@bufbuild/protobuf/README.md",
     "数学/高斯公式与斯托克斯公式.md",
     "node_modules/@quartz-community/utils/README.md",
