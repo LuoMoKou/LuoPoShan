@@ -1,1 +1,19 @@
-{}
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "quartz/",
+    ".quartz/",
+    ".github/",
+    ".claudian/",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "quartz.ts",
+    "quartz.lock.json",
+    "quartz.config.yaml",
+    "quartz.config.default.yaml",
+    "globals.d.ts",
+    "index.d.ts",
+    "Dockerfile"
+  ]
+}
