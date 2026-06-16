@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "public/static/og-image.png"
+                "file": "public/数学/index-og-image.webp"
               },
               "icon": "lucide-image",
-              "title": "og-image"
+              "title": "index-og-image"
             }
           }
         ]
@@ -196,11 +196,12 @@
   },
   "active": "3841eda046ed7d93",
   "lastOpenFiles": [
+    "public/数学/格林公式形象理解-og-image.webp",
+    "public/数学/高斯公式与斯托克斯公式-og-image.webp",
+    "public/static/og-image.png",
     "public/static/icon.png",
     "public/物理/index-og-image.webp",
     "public/物理/大学物理第六章-波动-习题讲义-og-image.webp",
-    "public/数学/高斯公式与斯托克斯公式-og-image.webp",
-    "public/数学/格林公式形象理解-og-image.webp",
     "public/数学/index-og-image.webp",
     "index.md",
     "数学/高斯公式与斯托克斯公式.md",
@@ -220,7 +221,6 @@
     "public/tags/讲义-og-image.webp",
     "public/tags/习题解析-og-image.webp",
     "public/tags/波动-og-image.webp",
-    "public/tags/大学物理-og-image.webp",
     "node_modules/@bufbuild/protobuf/README.md",
     "node_modules/@quartz-community/utils/README.md",
     "node_modules/@quartz-community/utils/CHANGELOG.md",
