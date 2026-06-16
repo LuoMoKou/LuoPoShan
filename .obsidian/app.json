@@ -1,4 +1,7 @@
 {
+  "attachmentFolderPath": "垃圾袋",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "垃圾袋",
   "userIgnoreFilters": [
     "node_modules",
     "node_modules/**",

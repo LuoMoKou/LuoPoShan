@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +196,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3841eda046ed7d93",
+  "active": "4e2e724424f6421d",
   "lastOpenFiles": [
     "数学/高斯公式与斯托克斯公式.md",
     "数学/格林公式形象理解.md",
     "数学/散度.md",
+    "物理/大学物理第六章-波动-习题讲义.md",
     "public/数学/index-og-image.webp",
     "public/数学/格林公式形象理解-og-image.webp",
     "public/数学/高斯公式与斯托克斯公式-og-image.webp",
@@ -209,7 +210,6 @@
     "public/物理/index-og-image.webp",
     "public/物理/大学物理第六章-波动-习题讲义-og-image.webp",
     "index.md",
-    "物理/大学物理第六章-波动-习题讲义.md",
     "public/物理/sedhBwdro",
     "public/物理/sedKDOSO1",
     "public/数学/sedh7maeF",
