@@ -196,8 +196,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "872b182fa9e4bf9a",
+  "active": "3841eda046ed7d93",
   "lastOpenFiles": [
+    "数学/三大公式的直观理解.md",
+    "数学/三大公式的直观理解.md.tmp.20488.99008ae42182",
     "数学/格林公式形象理解.md",
     "数学/散度.md",
     "物理/大学物理第六章-波动-习题讲义.md",
@@ -220,7 +222,6 @@
     "public/数学/sedMTwugc",
     "public/tags/sedv4dGPO",
     "public/tags/sedpxhEx4",
-    "public/tags/sedOr7xNB",
     "public/tags/index-og-image.webp",
     "public/tags/讲义-og-image.webp",
     "public/tags/习题解析-og-image.webp",
@@ -243,7 +244,6 @@
     "node_modules/serve-handler/node_modules/brace-expansion/README.md",
     "node_modules/@clack/prompts/CHANGELOG.md",
     "node_modules/serve-handler/node_modules/balanced-match/README.md",
-    "node_modules/serve-handler/node_modules/balanced-match/LICENSE.md",
     "_quartz/docs/Canvas.canvas",
     "未命名.canvas"
   ]
