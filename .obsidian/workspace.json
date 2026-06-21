@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "高斯公式与斯托克斯公式"
             }
+          },
+          {
+            "id": "a52513fbcdd65296",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-06-21 21.38.15.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-06-21 21.38.15.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "48576ce44e4da222",
@@ -180,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +211,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3841eda046ed7d93",
+  "active": "a52513fbcdd65296",
   "lastOpenFiles": [
+    "数学/高斯公式与斯托克斯公式.md",
+    "Excalidraw/Drawing 2026-06-21 21.38.15.excalidraw.md",
+    "Excalidraw",
     "数学/三大公式的直观理解.md",
     "数学/三大公式的直观理解.md.tmp.20488.99008ae42182",
     "数学/格林公式形象理解.md",
@@ -206,7 +224,6 @@
     "英语/可理解输入假说-颠覆英语学习认知-听说篇.md",
     "英语/可理解输入假说-颠覆英语学习认知-听说篇.md.tmp.52768.f94d8bc74d9b",
     "英语",
-    "数学/高斯公式与斯托克斯公式.md",
     "public/数学/index-og-image.webp",
     "public/数学/格林公式形象理解-og-image.webp",
     "public/数学/高斯公式与斯托克斯公式-og-image.webp",
@@ -221,7 +238,6 @@
     "public/数学/sedOttFUF",
     "public/数学/sedMTwugc",
     "public/tags/sedv4dGPO",
-    "public/tags/sedpxhEx4",
     "public/tags/index-og-image.webp",
     "public/tags/讲义-og-image.webp",
     "public/tags/习题解析-og-image.webp",
@@ -243,7 +259,6 @@
     "node_modules/@clack/prompts/README.md",
     "node_modules/serve-handler/node_modules/brace-expansion/README.md",
     "node_modules/@clack/prompts/CHANGELOG.md",
-    "node_modules/serve-handler/node_modules/balanced-match/README.md",
     "_quartz/docs/Canvas.canvas",
     "未命名.canvas"
   ]
