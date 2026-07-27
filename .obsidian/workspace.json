@@ -182,11 +182,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 486.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +202,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "872b182fa9e4bf9a",
+  "active": "4e2e724424f6421d",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-07-27 09.06.22.excalidraw.md",
     "Excalidraw",
