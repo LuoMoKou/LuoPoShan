@@ -11,10 +11,14 @@
             "id": "aba644cae9e5e52d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ]
@@ -202,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4e2e724424f6421d",
+  "active": "aba644cae9e5e52d",
   "lastOpenFiles": [
+    "未命名.md",
     "Excalidraw/Drawing 2026-07-27 09.06.22.excalidraw.md",
     "Excalidraw",
     "2026-07-27.md",
@@ -250,7 +255,6 @@
     "node_modules/@clack/core/README.md",
     "node_modules/parse-entities/node_modules/@types/unist/README.md",
     "node_modules/@clack/core/CHANGELOG.md",
-    "node_modules/serve-handler/node_modules/minimatch/README.md",
     "_quartz/docs/Canvas.canvas"
   ]
 }

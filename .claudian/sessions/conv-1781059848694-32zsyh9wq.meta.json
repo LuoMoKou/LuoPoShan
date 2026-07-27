@@ -1,15 +1,16 @@
 {
   "id": "conv-1781059848694-32zsyh9wq",
   "providerId": "claude",
-  "title": "整理文档排版",
+  "title": "Generate classroom note folder structure",
   "titleGenerationStatus": "success",
   "createdAt": 1781059848695,
-  "updatedAt": 1784105047130,
-  "lastResponseAt": 1784105047130,
+  "updatedAt": 1785122042156,
+  "lastResponseAt": 1785122036474,
   "sessionId": "b914ca35-a987-43fc-9d6c-2b25610d519a",
   "providerState": {
     "providerSessionId": "b914ca35-a987-43fc-9d6c-2b25610d519a"
   },
+  "currentNote": "未命名.md",
   "usage": {
     "model": "opus",
     "inputTokens": 406495,
