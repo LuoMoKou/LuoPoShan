@@ -1,5 +1,5 @@
 {
-  "userName": "",
+  "userName": "洛墨寇",
   "permissionMode": "yolo",
   "model": "opus",
   "thinkingBudget": "medium",
@@ -9,11 +9,12 @@
   "titleGenerationModel": "",
   "excludedTags": [],
   "mediaFolder": "垃圾袋",
-  "systemPrompt": "",
+  "systemPrompt": "除非特定需要的语汇，可以尽量使用中文",
   "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
@@ -29,10 +30,10 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "opus",
+      "modelEnvironmentType": "",
+      "titleModelEnvironmentType": "",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -48,7 +49,12 @@
       "installationMethodsByHost": {
         "device:c5f2808b-4ecb-4fd0-a637-9550c9b6aa91": "native-windows"
       },
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {},
+      "discoveredModels": [],
+      "modelAliases": {},
+      "visibleModels": null,
+      "catalogTimestamp": 0,
+      "catalogFingerprint": ""
     },
     "opencode": {
       "cliPath": "",
@@ -61,6 +67,30 @@
       "selectedMode": "",
       "thinkingOptionsByModel": {},
       "visibleModels": []
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
     }
   },
   "settingsProvider": "claude",
@@ -71,17 +101,17 @@
     "claude": "high"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {
-    "claude": "medium"
-  },
+  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
+  "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
-  "maxTabs": 3,
-  "tabBarPosition": "input",
+  "maxTabs": 5,
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
-  "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {}
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "main-tab",
+  "hiddenProviderCommands": {},
+  "tabBarPosition": "input"
 }

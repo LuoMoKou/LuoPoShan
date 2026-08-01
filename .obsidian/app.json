@@ -27,5 +27,6 @@
     "Dockerfile",
     "index.md",
     "gen-plugin-index.cjs"
-  ]
+  ],
+  "promptDelete": false
 }
